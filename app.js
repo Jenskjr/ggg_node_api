@@ -1,10 +1,17 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const allContent = require("./data/all");
+// data
+const allProjects = require("./data/projects");
+const allOrganizations = require("./data/organizations");
+const accounts = require("./data/userAccounts")
+// cors
 const cors = require("cors");
 
 // initalize app
 const app = express();
+
+//app.use(cors())
+app.options('*', cors())
 
 // cors policy---------------------------------------------------
 var whitelist = ["http://jenskjr.dk", "http://localhost:3000"];
@@ -17,6 +24,7 @@ var corsOptions = {
         }
     }
 };
+
 
 // configure the app to use bodyParser() ------------------
 app.use(
@@ -32,12 +40,58 @@ app.get("/", (req, res) => {
 });
 
 // get routes ------------------------------------------------
-app.get("/all", cors(corsOptions), (req, res) => {
-    res.send(allContent);
+
+app.get("/projects/:id", cors(corsOptions), (req, res) => {
+    res.send(allProjects);
+});
+
+app.get("/project/:contentId/:projectId", cors(corsOptions), (req, res) => {
+
+    let organization;
+    allProjects.map(org => {
+        if (req.params.contentId.toString() === org.organizationId.toString()) {
+            organization = {
+                ...org
+            };
+        }
+    })
+
+    const projects = organization.projects
+    let currentProject;
+    //console.log(projects)
+
+    projects && projects.map(project => {
+        if (req.params.projectId.toString() === project.id.toString()) {
+            currentProject = {
+                ...project
+            }
+        }
+    })
+
+    delete organization.projects
+    organization.project = currentProject
+
+    res.send(organization);
 });
 
 app.get("/organizations", cors(corsOptions), (req, res, next) => {
-    res.send("These are all organizations!");
+    res.send(allOrganizations);
+});
+
+// Sign in
+app.get("/auth", cors(corsOptions), (req, res, next) => {
+    const account = accounts.find(x => x.name.toLocaleLowerCase() === req.headers.username.toLowerCase())
+    // validate login 
+    if (!account)
+        return res.sendStatus(404); // not found 
+    if (account.password.toString() === req.headers.token.toString()) {
+        let thisAccount = {
+            id: account.id,
+            name: account.name,
+        }
+        return res.send(thisAccount);
+    } else
+        return res.sendStatus(401) // bad request    
 });
 
 app.get("/projects/:id", (req, res) => {

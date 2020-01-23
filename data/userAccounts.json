@@ -1,0 +1,11 @@
+  [{
+          "id": "10d973248-10a5-4525-85eb-74b90ce05158",
+          "name": "Johan",
+          "password": 1234
+      },
+      {
+          "id": "2c8c1b606-9fbc-4b33-8ce9-f3080d1ba32f",
+          "name": "Jens",
+          "password": 1234
+      }
+  ]

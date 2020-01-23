@@ -1,0 +1,85 @@
+[{
+        "id": 1,
+        "organizationId": 1,
+        "logo": "logo_røde_kors.png",
+        "title": "Røde kors",
+        "text": "Text",
+        "image": "Image",
+        "url": "http://rodekors.dk",
+        "searchedBefore": true
+    },
+    {
+        "id": 2,
+        "organizationId": 2,
+        "logo": "logo_dansk_flygtningehjælp.png",
+        "title": "Dansk Flygtningehjælp",
+        "text": "Text",
+        "image": "Image",
+        "url": "http://flygtning.dk",
+        "searchedBefore": "true",
+        "supportedBefore": "true"
+    },
+    {
+        "id": 3,
+        "organizationId": 3,
+        "logo": "logo_folkekirkens_nødhjælp.png",
+        "title": "Folkekirkens Nødhjælp",
+        "text": "Text",
+        "image": "Image",
+        "url": "http://noedhjaelp.dk"
+    },
+    {
+        "id": 4,
+        "organizationId": 4,
+        "logo": "logo_læger_uden_grænser.png",
+        "title": "læger uden grænser",
+        "text": "Text",
+        "image": "Image",
+        "url": ""
+    },
+    {
+        "id": 5,
+        "organizationId": 5,
+        "logo": "logo_red_barnet.png",
+        "title": "Red Barnet",
+        "text": "Text",
+        "image": "Image",
+        "url": ""
+    },
+    {
+        "id": 6,
+        "organizationId": 6,
+        "logo": "logo_sind.png",
+        "title": "Sind",
+        "text": "Text",
+        "image": "Image",
+        "url": ""
+    },
+    {
+        "id": 7,
+        "organizationId": 7,
+        "logo": "logo_unicef.png",
+        "title": "Unicef",
+        "text": "Text",
+        "image": "Image",
+        "url": ""
+    },
+    {
+        "id": 8,
+        "organizationId": 8,
+        "logo": "logo_wwf.png",
+        "title": "Verdensnaturfonden",
+        "text": "Text",
+        "image": "Image",
+        "url": ""
+    },
+    {
+        "id": 9,
+        "organizationId": 9,
+        "logo": "logo_ældresagen.png",
+        "title": "Ældresagen",
+        "text": "Text",
+        "image": "Image",
+        "url": ""
+    }
+]
