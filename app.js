@@ -4,6 +4,9 @@ const bodyParser = require("body-parser");
 const allProjects = require("./data/projects");
 const allOrganizations = require("./data/organizations");
 const accounts = require("./data/userAccounts")
+const developmentGoals = require("./data/developmentGoals")
+const categories = require("./data/categories")
+
 // cors
 const cors = require("cors");
 
@@ -25,7 +28,6 @@ var corsOptions = {
     }
 };
 
-
 // configure the app to use bodyParser() ------------------
 app.use(
     bodyParser.urlencoded({
@@ -41,12 +43,15 @@ app.get("/", (req, res) => {
 
 // get routes ------------------------------------------------
 
+app.get("/Allprojects", cors(corsOptions), (req, res) => {
+    res.send(allProjects);
+});
+
 app.get("/projects/:id", cors(corsOptions), (req, res) => {
     res.send(allProjects);
 });
 
 app.get("/project/:contentId/:projectId", cors(corsOptions), (req, res) => {
-
     let organization;
     allProjects.map(org => {
         if (req.params.contentId.toString() === org.organizationId.toString()) {
@@ -58,7 +63,6 @@ app.get("/project/:contentId/:projectId", cors(corsOptions), (req, res) => {
 
     const projects = organization.projects
     let currentProject;
-    //console.log(projects)
 
     projects && projects.map(project => {
         if (req.params.projectId.toString() === project.id.toString()) {
@@ -78,6 +82,16 @@ app.get("/organizations", cors(corsOptions), (req, res, next) => {
     res.send(allOrganizations);
 });
 
+// development goals
+app.get("/developmentgoals", cors(corsOptions), (req, res, next) => {
+    res.send(developmentGoals);
+});
+
+// categories
+app.get("/categories", cors(corsOptions), (req, res, next) => {
+    res.send(categories);
+});
+
 // Sign in
 app.get("/auth", cors(corsOptions), (req, res, next) => {
     const account = accounts.find(x => x.name.toLocaleLowerCase() === req.headers.username.toLowerCase())
@@ -92,14 +106,6 @@ app.get("/auth", cors(corsOptions), (req, res, next) => {
         return res.send(thisAccount);
     } else
         return res.sendStatus(401) // bad request    
-});
-
-app.get("/projects/:id", (req, res) => {
-    res.send("These are all projects!");
-});
-
-app.get("/project/:id", (req, res) => {
-    res.send("This is a single project!");
 });
 
 app.set("port", process.env.PORT || 8081);
