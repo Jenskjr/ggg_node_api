@@ -90,8 +90,43 @@
         "text": "Text",
         "image": "Image",
         "url": "http://flygtning.dk",
-        "searchedBefore": "true",
-        "supportedBefore": "true"
+        "projects": [{
+                "id": 1,
+                "organizationId": 2,
+                "logo": "logo_grundfoss.png",
+                "image": "img_bæredygtig_vandløsning.png",
+                "organization": "Dansk Flygtningehjælp",
+                "url": "https://dk.grundfos.com/",
+                "title": "Bæredygtig vandløsning",
+                "description": "Ifølge FN mangler 663 millioner mennesker stadig adgang til forbedret drikkevand og siden 2016 har Grundfos og Dansk Flygtningehjælp investeret i fælles læring.",
+                "devGoals": [2, 4, 6, 11, 12, 15],
+                "categories": []
+            },
+            {
+                "id": 1,
+                "organizationId": 2,
+                "logo": "logo_evershelter.png",
+                "image": "img_innovative_shelters.png",
+                "organization": "Dansk Flygtningehjælp",
+                "url": "#",
+                "title": "Innovative shelters",
+                "description": "EverShelter og Dansk Flygtningehjælp har i flere år samarbejdet om at lave værdige og omkostningseffektive boligløsninger til flygtninge.",
+                "devGoals": [1, 2, 9, 11],
+                "categories": []
+            },
+            {
+                "id": 1,
+                "organizationId": 2,
+                "logo": "logo_ibm.png",
+                "image": "img_ibm.png",
+                "organization": "Dansk Flygtningehjælp",
+                "url": "https://www.ibm.com/dk-en",
+                "title": "Predict, Explain and Prevent ",
+                "description": "DRC and IBM are collaborating to explain, predict and respond to forced displacement. Through a machine learning model",
+                "devGoals": [1, 2, 9, 13, 17],
+                "categories": []
+            }
+        ]
     },
     {
         "id": 3,
@@ -100,7 +135,68 @@
         "title": "Folkekirkens Nødhjælp",
         "text": "Text",
         "image": "Image",
-        "url": "http://noedhjaelp.dk"
+        "url": "http://noedhjaelp.dk",
+        "projects": [{
+                "id": 1,
+                "organizationId": 3,
+                "logo": "logo_care.png",
+                "image": "img_mad_i_malawi.png",
+                "organization": "Folkekirkens Nødhjælp",
+                "url": "https://www.care.com/da-dk",
+                "title": "Mad i Malawi",
+                "description": "I Malawi er fejl- og underernæring et stor problem. Det skyldes ikke mindst klimaforandringer. Folkekirkens Nødhjælp kæmper for at opbygge robuste lokalsamfund og sikre mad til alle.",
+                "devGoals": [],
+                "categories": []
+            },
+            {
+                "id": 2,
+                "organizationId": 3,
+                "logo": "logo_.png",
+                "image": "img_støm_til_katastrofeområder.png",
+                "organization": "Folkekirkens Nødhjælp",
+                "url": "",
+                "title": "Støm til katastrofeområder",
+                "description": "Folkekirkens Nødhjælp står for at livsvigtig genoprettelse af strøm i katastrofeområder,  hvilket er vitalt for at genoprette samfundet, samt bekæmpelsen af sult og nød.",
+                "devGoals": [],
+                "categories": []
+            },
+            {
+                "id": 3,
+                "organizationId": 3,
+                "logo": "logo_arla.png",
+                "image": "img_Energy_efficient_food_solutions.png",
+                "organization": "Folkekirkens Nødhjælp",
+                "url": "https://www.arla.dk/",
+                "title": "Energy-efficient food solutions",
+                "description": "Folkekirkens Nødhjælp og Arla hjælper bønder i Ethiopien med at gro Quinoa, hvilket har været med til at reducere antallet af underernærede i Ethiopen fra 75% til 35% af befolkningen. ",
+                "devGoals": [],
+                "categories": []
+            },
+            {
+                "id": 4,
+                "organizationId": 3,
+                "logo": "logo_orifarm.png",
+                "image": "img_landsbyer_i_myanmar.png",
+                "organization": "Folkekirkens Nødhjælp",
+                "url": "https://www.orifarm.com/dk/",
+                "title": "Landsbyer i Myanmar",
+                "description": "Mange virksomheder støtter at landsbyer i  Myanmar gennem hjælp til selvhjælp og er med til at sikre bæredygtig udvikling. Find en virksomhed du gerne vil støtte en by sammen med.",
+                "devGoals": [],
+                "categories": []
+            },
+            {
+                "id": 5,
+                "organizationId": 3,
+                "logo": "logo_unicool.png",
+                "image": "img_økologisk_mad_i_uganda.png",
+                "organization": "Folkekirkens Nødhjælp",
+                "url": "https://www.unicool.dk/",
+                "title": "Økologisk mad i Uganda",
+                "description": "Unicool samarbejder med Folkekirkens Nødhjælp om at skabe produktion af økologisk frugt og grønt i Uganda, for at skabe forsørgelse til den over én million flygtninge der er kommet fra Sydsudan.",
+                "devGoals": [],
+                "categories": []
+            }
+        ]
     },
     {
         "id": 4,
@@ -109,7 +205,32 @@
         "title": "læger uden grænser",
         "text": "Text",
         "image": "Image",
-        "url": ""
+        "url": "http://msf.dk",
+        "projects": [{
+                "id": 1,
+                "organizationId": 4,
+                "logo": "logo_pilgrim.png",
+                "image": "img_pilgrim_støtter_alle_aktiviteter.png",
+                "organization": "Læger uden grænser",
+                "url": "https://www.pilgrim.dk/",
+                "title": "Pilgrim støtter alle aktiviteter",
+                "description": "Alle kan få brug for læger, alle lande kan blive ramt af katastrofer af den ene eller den anden art, og vi mener at alle, har ret til lægehjælp derfor støtter vi Læger uden Grænser.",
+                "devGoals": [3, 5, 7],
+                "categories": []
+            },
+            {
+                "id": 2,
+                "organizationId": 4,
+                "logo": "logo_topdanmark.png",
+                "image": "img_topdanmark_støtter_alle_aktiviteter.png",
+                "organization": "Læger uden grænser",
+                "url": "https://www.topdanmark.dk/",
+                "title": "Topdanmark støtter alle aktiviteter",
+                "description": "Topdanmark har støttet Læger uden Grænser siden 1996 fordi 'vi har tillid til at pengene bliver brugt til nødhjælp på en ansvarlig måde.'",
+                "devGoals": [3, 5, 7],
+                "categories": []
+            }
+        ]
     },
     {
         "id": 5,
@@ -118,7 +239,44 @@
         "title": "Red Barnet",
         "text": "Text",
         "image": "Image",
-        "url": ""
+        "url": "",
+        "projects": [{
+                "id": 1,
+                "organizationId": 5,
+                "logo": "logo_jysk.png",
+                "image": "img_fattigdom_i_Danmark.png",
+                "organization": "Red Barnet",
+                "url": "https://www.jysk.dk/",
+                "title": "Fattigdom i Danmark",
+                "description": "Børn kan være dårligt stillede og udsatte på forskellige måder. Fælles for dem,  er, at de ofte isolerer sig og har færre venner end deres omgivelser. Derfor arbejder vi på, de kan blive inkluderet.",
+                "devGoals": [1, 2, 4, 5, 10, 16],
+                "categories": []
+            },
+            {
+                "id": 2,
+                "organizationId": 5,
+                "logo": "logo_aldi.png",
+                "image": "img_forebyg_og_bekæmp_mobning.png",
+                "organization": "Red Barnet",
+                "url": "https://www.aldi.dk/",
+                "title": "Forebyg og bekæmp mobning",
+                "description": "Vi arbejder aktivt for at bekæmpe og forebygge mobning i skoler, sportsklubber og på nettet. Det gør vi, fordi alle børn har ret til en opvækst uden mobning.",
+                "devGoals": [4, 5, 10, 16],
+                "categories": []
+            },
+            {
+                "id": 3,
+                "organizationId": 5,
+                "logo": "logo_ikea.png",
+                "image": "img_børn_på_flugt.png",
+                "organization": "Red Barnet",
+                "url": "https://www.ikea.dk/",
+                "title": "Børn på Flugt",
+                "description": "Børn skal ikke vokse op med frygten for at blive dræbt, uden skolegang eller med så stor mangel på mad og muligheder, at det frarøver dem deres barndom.",
+                "devGoals": [3, 5, 7],
+                "categories": []
+            }
+        ]
     },
     {
         "id": 6,
@@ -127,7 +285,44 @@
         "title": "Sind",
         "text": "Text",
         "image": "Image",
-        "url": ""
+        "url": "",
+        "projects": [{
+                "id": 1,
+                "organizationId": 6,
+                "logo": "logo_zangger_fonden.png",
+                "image": "img_støtte_til_aflastning.png",
+                "organization": "Sind",
+                "url": "#",
+                "title": "Støtte til aflastning",
+                "description": "Mange der bliver syge, ender med at få brug for hjælp til vende tilbage til en almindelig hverdag. Dette arbejde støtter Zangger, Sind med at få udført.",
+                "devGoals": [3],
+                "categories": []
+            },
+            {
+                "id": 2,
+                "organizationId": 6,
+                "logo": "logo_tryg_fonden.png",
+                "image": "img_indgang_til_et_aktivt_liv.png",
+                "organization": "Sind",
+                "url": "https://www.trygfonden.dk/",
+                "title": "Indgang til et aktivt liv",
+                "description": "Projektet sørger for at bygge bro mellem det offentliges rådgivernes dialog med borgere og de mange aktiviteter, som SIND lokalt står bag, så at det bliver lettere for borgerne at få hjælp",
+                "devGoals": [3],
+                "categories": []
+            },
+            {
+                "id": 3,
+                "organizationId": 6,
+                "logo": "logo_velux_foundations.png",
+                "image": "img_forskning_i_forebyggelse.png",
+                "organization": "Sind",
+                "url": "https://veluxfoundations.dk/",
+                "title": "Forskning i forebyggelse",
+                "description": "Flere danskere end nogensinde før oplever, at mentale sundhedsproblemer står i vejen for et godt hverdagsliv. Samtidig mangler der viden om forebyggelse, så færre udvikler psykiske lidelser.",
+                "devGoals": [3],
+                "categories": []
+            }
+        ]
     },
     {
         "id": 7,
@@ -136,7 +331,44 @@
         "title": "Unicef",
         "text": "Text",
         "image": "Image",
-        "url": ""
+        "url": "",
+        "projects": [{
+                "id": 1,
+                "organizationId": 7,
+                "logo": "logo_ikea.png",
+                "image": "img_retfærdighedsskoler_i_Danmark.png",
+                "organization": "Unicef",
+                "url": "http://ikea.dk",
+                "title": "Retfærdighedsskoler i Danmark",
+                "description": "”På Rettighedsskolerne bliver børnenes stemme hørt, og de får konkret indflydelse på deres hverdag i skolen. Resultater viser, at denne måde at arbejde på ude på skolerne øger trivslen blandt både børn og lærere.",
+                "devGoals": [4, 5, 10, 16],
+                "categories": []
+            },
+            {
+                "id": 2,
+                "organizationId": 7,
+                "logo": "logo_saxo.png",
+                "image": "img_sæt_ordet_frit_for_verdens_børn.png",
+                "organization": "Unicef",
+                "url": "https://www.saxo.dk/",
+                "title": "Sæt ordet frit for verdens børn",
+                "description": "Det handler om, at alle skal kunne læse hvad som helst, hvor som helst og i hvilket som helst format. Den mulighed ønsker vi også, at man skal have i verdens udsatte områder.",
+                "devGoals": [3, 4],
+                "categories": []
+            },
+            {
+                "id": 3,
+                "organizationId": 7,
+                "logo": "logo_norwegian.png",
+                "image": "img_årets_vigtigste_flyvning.png",
+                "organization": "Unicef",
+                "url": "https://norwegian.dk/",
+                "title": "Årets vigtigste flyvning",
+                "description": "Fyld et fly“-kampagnen, hvor Norwegian og UNICEF en gang om året sender et fly fyldt med skolebøger og nødhjælp til dele af verden, der er ramt af krig og konflikt.",
+                "devGoals": [2, 3, 5, 10],
+                "categories": []
+            }
+        ]
     },
     {
         "id": 8,
@@ -145,15 +377,89 @@
         "title": "Verdensnaturfonden",
         "text": "Text",
         "image": "Image",
-        "url": ""
+        "url": "",
+        "projects": [{
+                "id": 1,
+                "organizationId": 8,
+                "logo": "logo_ikea.png",
+                "image": "img_bæredygtigt_fiskeri.png",
+                "organization": "Verdensnaturfonden",
+                "url": "https://sallinggroup.com/",
+                "title": "Bæredygtigt fiskeri",
+                "description": "Ifølge FN er 90 procent af verdens fiskebestande enten fuldt udnyttede, overfiskede eller helt på grænsen til kollaps. WWF og Dansk Supermarked arbejder på at sikre fiskebestanden.",
+                "devGoals": [4, 5, 10, 16],
+                "categories": []
+            },
+            {
+                "id": 2,
+                "organizationId": 8,
+                "logo": "logo_hm.png",
+                "image": "img_mindre_vand_og_kemikalier.png",
+                "organization": "Verdensnaturfonden",
+                "url": "https://www2.hm.com/",
+                "title": "Mindre vand og kemikalier",
+                "description": "WWF sætter sammen med H&M fokus på, hvordan det er muligt at reducere forbruget af kemikalier, vand og CO2 i tøjproduktionen. Igennem samarbejdet skal andre virksomheder oplyses.",
+                "devGoals": [4, 8, 12, 13, 15],
+                "categories": []
+            },
+            {
+                "id": 3,
+                "organizationId": 8,
+                "logo": "logo_lego.png",
+                "image": "img_climate_savers.png",
+                "organization": "Verdensnaturfonden",
+                "url": "https://lego.dk/",
+                "title": "Climate savers",
+                "description": "Climate Savers er WWF’s globale klimaprogram, der har til formål at gøre virksomheder til ledere af den grønne omstilling. LEGO støtter initiativet, i ønsket om at flere virksomheder tilsluttes.",
+                "devGoals": [4, 8, 12, 13, 15],
+                "categories": []
+            }
+        ]
     },
     {
         "id": 9,
         "organizationId": 9,
-        "logo": "logo_ældresagen.png",
-        "title": "Ældresagen",
+        "logo": "logo_kræftens_bekæmpelse.png",
+        "title": "Kræftens bekæmpelse",
         "text": "Text",
         "image": "Image",
-        "url": ""
+        "url": "",
+        "projects": [{
+                "id": 1,
+                "organizationId": 9,
+                "logo": "logo_toms_group.png",
+                "image": "img_støt_brysterne.png",
+                "organization": "Kræftens bekæmpelse",
+                "url": "https://tomsgroup.com/",
+                "title": "Støt brysterne",
+                "description": "1 ud af 9 danske kvinder rammes af brystkræft i løbet af deres liv. Det er næsten 4.700 kvinder i Danmark får brystkræft hvert år. Det betyder også, at vi må stå sammen og støtte hinanden, for at få tallet ned.",
+                "devGoals": [3, 4],
+                "categories": []
+            },
+            {
+                "id": 2,
+                "organizationId": 9,
+                "logo": "logo_rema_1000.png",
+                "image": "img_kræft_er_ikke_for_børn.png",
+                "organization": "Kræftens bekæmpelse",
+                "url": "https://shop.rema1000.dk/",
+                "title": "Kræft er ikke for børn",
+                "description": "Kræft er ikke for børn og unge. Vi arbejder for en bedre og mere effektiv behandling for børn og unge, et godt liv efter sygdommen med færre senfølger, der har kræft inde på livet.",
+                "devGoals": [3, 4],
+                "categories": []
+            },
+            {
+                "id": 3,
+                "organizationId": 9,
+                "logo": "logo_coop.png",
+                "image": "img_virksomheder_mod_kræft.png",
+                "organization": "Kræftens bekæmpelse",
+                "url": "https://coop.dk/",
+                "title": "Virksomheder mod kræft",
+                "description": "1 ud af 3 danskere får kræft Kræftens Bekæmpelses arbejder inden for forskning, forebyggelse af kræft, samt oplysning og rådgivning til kræftramte og deres pårørende.",
+                "devGoals": [3, 4],
+                "categories": []
+            }
+        ]
     }
 ]
