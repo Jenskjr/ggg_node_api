@@ -17,7 +17,13 @@ const app = express();
 app.options('*', cors())
 
 // cors policy---------------------------------------------------
-var whitelist = ["http://jenskjr.dk", "http://localhost:3000"];
+var whitelist = [
+    "http://jenskjr.dk",
+    "http://www.jenskjr.dk",
+    "http://localhost:3000",
+    "http://gennemgodegerninger.dk",
+    "http://www.gennemgodegerninger.dk"
+];
 var corsOptions = {
     origin: function (origin, callback) {
         if (whitelist.indexOf(origin) !== -1) {
